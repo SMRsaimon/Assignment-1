@@ -5,7 +5,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-/* global section start  */
+/* global classes start  */
 h1{
     font-size: 50px ;
     font-family: 'Bebas Neue', cursive;
@@ -23,8 +23,8 @@ h3{
     color: #363958;
 }
 p{
-    font-size: 16px ;
     color: gray;
+    font-size: 16px ;
     font-family: 'Roboto', sans-serif;
 }
 a{
@@ -32,8 +32,6 @@ a{
     font-size: 16px ;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
-    
-  
 }
 .float{
     float: left;
@@ -41,24 +39,23 @@ a{
 
 .container{
     width: 84%;
+    height:600px;
     margin-left: 8%;
     margin-right: 8%;
-    height: 600px ;
+  
 }
 .btn{
-    padding: 15px 30px ;
-  background-color: #FF8063;
+    top: 40px ;
     color: white;
+    padding: 15px 30px ;
+    background-color: #FF8063;
     border-radius: 5px ;
     position: relative;
-    top: 40px ;
     letter-spacing: 1px;
-    
-   
 }
 
 
-/* global section End   */
+/* global classes End   */
 
 
 
@@ -69,24 +66,20 @@ a{
 }
 
 #manue .manubar ul{
-    list-style-type: none;
     right: 10%;
     position: absolute;
+    list-style-type: none;
 }
 #manue .manubar ul li{
     float: left;
+    margin-top:30px;
     margin-left: 25px ;
-    margin-top: 30px ;
-   
 }
 
 #manue .manubar ul li a{
     color:#3C3C3C;
     font-weight: 700;
 }
-
-
-
 
 /* manue section End  */
 
@@ -104,8 +97,8 @@ a{
     color: #FF8367;
     font-size: 70px ;
     font-weight: 500;
-    text-transform: uppercase;
     margin-top: -25px ;
+    text-transform: uppercase;
 }
 
 .intro-contant{
@@ -117,8 +110,12 @@ a{
     font-size: 18px ;
 }
 .intro-image{
-    width: 40%;
-    margin-left: 10px ;
+    width: 45%;
+    
+}
+.intro-image img{
+   width: 100%;
+    
 }
 
 
@@ -136,16 +133,16 @@ a{
 
 
 .about-image img{
-     height: 700px  ;
-     width: 100%;
-     margin-top: -200px ;
+    width: 100%;
+     height: 600px ;
+     margin-top: -100px ;
 }
 .about-right-contant{
     width: 50%;
+    padding-left: 100px ;
     margin-left: 100px ;
+    margin-top: 30px ;
     box-sizing: border-box;
-    padding-left: 58px ;
-   
 }
 /*   About Section End  */
 
@@ -155,11 +152,10 @@ a{
 
 /* skill bar start  */
 #progress-bar{
-    margin-top: 200px ;
+    margin-top: 80px ;
+    margin-bottom: 100px ;
     background-image: url(images/bg.png);
     background-repeat: no-repeat;
-    margin-bottom: 100px ;
-   
     background-position: right;
 }
 .background-color{
@@ -170,12 +166,12 @@ a{
 
 }
 .bar-color{
-   
-    background-color: lightslategray;
+
     text-align: center;
     color: white;
     font-weight: 800;
-  
+    background-color: lightslategray;
+
 }
 
 #progress-bar .container span{
@@ -185,19 +181,16 @@ a{
     font-family: 'Bebas Neue', cursive;
 }
 .wrapper{
-    background-color:#fdfbfb;
-  height: 460px;
-  box-shadow: 3px 8px 8px -6px #888888;
-
-
+     height: 460px;
+     background-color:#fdfbfb;
+     box-shadow: 3px 8px 8px -6px #888888;
 }
 .progress-bar-container{
-    width: 60%;
+  width: 60%;
   margin: 0 auto;
-  box-shadow: 0px 10px 8px 3px #888888;
   padding-left: 20px ;
   padding-right: 20px ;
- 
+  box-shadow: 0px 10px 8px 3px #888888;
 }
 
 /* skill bar end  */
@@ -216,10 +209,9 @@ a{
 }
 
 #project-area .h1{
-text-align: center;
-background-color:#fdfbfb;
-padding: 50px 0;
-
+    text-align: center;
+    padding: 50px 0;
+    background-color:#fdfbfb;
 }
 #project-area .container{
     height: auto;
@@ -230,11 +222,11 @@ padding: 50px 0;
     width: 30%;
     padding: 20px ;
     box-sizing: border-box;
-   
     background-color: #FFF;
-    box-shadow: 4px 7px 7px 6px #f3f3f3;
     border-radius: 10px ;
-   line-height: 30px ;
+    line-height: 30px ;
+    box-shadow: 4px 7px 7px 6px #f3f3f3;
+    
 }
 
 .project-demo img{
@@ -252,13 +244,13 @@ padding: 50px 0;
 
 #footer{
     margin-left: 40px ;
+    margin-top: 200px ;
 }
 
 #footer .container{
     width: 70%;
-    margin: 60px auto;
     height: 250px ;
-
+    margin: 60px auto;
     background-image: url(images/background.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -266,50 +258,52 @@ padding: 50px 0;
 
 
 #footer .container .h1{
+    color:white;
+    font-size: 64px ;
     margin-top: 80px  ;
     margin-left: 116px;
     background: transparent;
-    color:white;
-    font-size: 64px ;
+  
 }
 
 #footer .container .btn{
+    margin-top: 60px ;
     margin-left: 403px;
-    margin-top: 60px  ;
-
 }
 
 .contract-area{
-
+    line-height:50px;
     text-align: center;
-    line-height: 50px ;
+    
 
 }
 .contract-area .footer-h3{
-    margin-top: 74px ;
-    text-transform: uppercase;
     color: gray;
+    margin-top:74px;
     font-size: 20px ;
-    font-family: 'Bebas Neue', cursive;
     font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+   
 }
 .contract-area h3 a{
     margin-top: 20px ;
-    text-transform: uppercase;
     font-size: 36px ;
-    font-family: 'Roboto', sans-serif;
     color: #363958;
     font-weight: 700;
     letter-spacing: normal;
-    text-transform: lowercase;
+    text-transform:lowercase;
+    font-family: 'Roboto', sans-serif;
 }
 
 .social-icon a img{
-    margin-bottom: 50px ;
-    margin-top: 30px ;
     width: 50px ;
     height: 50px ;
+    margin-top: 30px;
     margin-left: 20px ;
+    margin-bottom: 50px ;
+ 
+  
 }
 
 /* End and Finish  */
